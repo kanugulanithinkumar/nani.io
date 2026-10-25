@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Prabhas fan home page created for Lab 01 using HTML and CSS.">
+  <title>Prabhas | Beyond the Screen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="Prabhas home">PRABHAS<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#highlights">Highlights</a><a href="#about">About</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">THE STAR. THE STORIES. THE JOURNEY.</p>
+        <h1 id="hero-title">Beyond<br>the screen<span>.</span></h1>
+        <p class="hero-description">Celebrating Prabhas, the unforgettable characters, and the stories that bring cinema fans together.</p>
+        <a class="button" href="#highlights">Explore the highlights <span aria-hidden="true">↗</span></a>
+        <p class="hero-note">A fan-made tribute to Indian cinema</p>
+      </div>
+      <div class="hero-image"><img src="assets/prabhas.webp" alt="Prabhas smiling in a light gray jacket" width="474" height="842" fetchpriority="high"><span class="image-caption">PRABHAS / ACTOR</span></div>
+    </section>
+    <section class="highlights" id="highlights" aria-labelledby="highlights-title">
+      <div class="section-heading"><div><p class="eyebrow">IN THE SPOTLIGHT</p><h2 id="highlights-title">A larger-than-life journey.</h2></div><p>Three ways to discover the story.</p></div>
+      <div class="cards">
+        <article class="card"><span class="card-number">01 / CINEMA</span><div class="card-art art-one" aria-hidden="true">B</div><h3>Epic storytelling</h3><p>The Baahubali films pair ambitious worlds with memorable characters and spectacular visual storytelling.</p><a href="https://en.wikipedia.org/wiki/Baahubali_(franchise)">Discover Baahubali <span aria-hidden="true">↗</span></a></article>
+        <article class="card"><span class="card-number">02 / PERFORMANCE</span><div class="card-art art-two" aria-hidden="true">P</div><h3>Screen presence</h3><p>From dramatic moments to action sequences, explore the performances that have connected with fans.</p><a href="https://en.wikipedia.org/wiki/Prabhas_filmography">Explore filmography <span aria-hidden="true">↗</span></a></article>
+        <article class="card"><span class="card-number">03 / THE JOURNEY</span><div class="card-art art-three" aria-hidden="true">↗</div><h3>Beyond one role</h3><p>Get to know the actor behind the characters and discover more about his journey through Indian cinema.</p><a href="https://en.wikipedia.org/wiki/Prabhas">Read about Prabhas <span aria-hidden="true">↗</span></a></article>
+      </div>
+    </section>
+    <section class="about" id="about" aria-labelledby="about-title"><p class="eyebrow">ABOUT THIS PAGE</p><h2 id="about-title">Made for the love of cinema.</h2><p>This unofficial fan page is a Lab 01 home page prototype built with semantic HTML and CSS. It demonstrates navigation, a large hero image, and a responsive three-card layout.</p></section>
+  </main>
+  <footer><a class="logo" href="#home">PRABHAS<span>.</span></a><p>Lab 01 · HTML &amp; CSS · Unofficial fan project</p><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
